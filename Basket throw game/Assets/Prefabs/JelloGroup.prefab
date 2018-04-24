@@ -1,0 +1,1464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1120007391935946}
+  m_IsPrefabParent: 1
+--- !u!1 &1120007391935946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4367683198551196}
+  m_Layer: 0
+  m_Name: JelloGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1189419091467970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4722905015998672}
+  - component: {fileID: 50172297234682086}
+  - component: {fileID: 60944340087504280}
+  - component: {fileID: 114824987748530434}
+  - component: {fileID: 33765949379620394}
+  - component: {fileID: 23126919502953250}
+  - component: {fileID: 114567173483837698}
+  - component: {fileID: 114383217315533718}
+  - component: {fileID: 114085213882703304}
+  m_Layer: 0
+  m_Name: JelloPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1301860129102128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4747106674287972}
+  - component: {fileID: 114467360851665694}
+  m_Layer: 0
+  m_Name: Jello World
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1747004343909004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4801935687895380}
+  - component: {fileID: 212539718450986956}
+  m_Layer: 0
+  m_Name: JelloEye
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1895534048335106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4714002148311034}
+  - component: {fileID: 212267730461573696}
+  m_Layer: 0
+  m_Name: JelloEye
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4367683198551196
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120007391935946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.059576, y: 6.14781, z: -0.31257725}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4747106674287972}
+  - {fileID: 4801935687895380}
+  - {fileID: 4714002148311034}
+  - {fileID: 4722905015998672}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4714002148311034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1895534048335106}
+  m_LocalRotation: {x: -0, y: -0, z: 0.027137674, w: -0.9996317}
+  m_LocalPosition: {x: -11.082519, y: -2.4277172, z: 0.2545219}
+  m_LocalScale: {x: 0.48379463, y: 0.48379466, z: 0.48379454}
+  m_Children: []
+  m_Father: {fileID: 4367683198551196}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4722905015998672
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189419091467970}
+  m_LocalRotation: {x: -0, y: -0, z: -0.027136633, w: 0.99963176}
+  m_LocalPosition: {x: -10.83, y: -2.62, z: 0.31257725}
+  m_LocalScale: {x: 0.4837946, y: 0.4837946, z: 0.48379454}
+  m_Children: []
+  m_Father: {fileID: 4367683198551196}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4747106674287972
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301860129102128}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.059576, y: -6.14781, z: 0.31257725}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4367683198551196}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4801935687895380
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1747004343909004}
+  m_LocalRotation: {x: -0, y: -0, z: -0.027137587, w: 0.9996317}
+  m_LocalPosition: {x: -10.534416, y: -2.4624522, z: 0.26903573}
+  m_LocalScale: {x: 0.48379454, y: 0.48379457, z: 0.48379454}
+  m_Children: []
+  m_Father: {fileID: 4367683198551196}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23126919502953250
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189419091467970}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33765949379620394
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189419091467970}
+  m_Mesh: {fileID: 0}
+--- !u!50 &50172297234682086
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189419091467970}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &60944340087504280
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189419091467970}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.8978313, y: -1.7069812}
+      - {x: 1.1740562, y: -1.6939625}
+      - {x: 1.4053037, y: -1.5551435}
+      - {x: 1.5189625, y: -1.340188}
+      - {x: 1.5219815, y: -1.043019}
+      - {x: 1.3890841, y: -0.61132497}
+      - {x: 1.495, y: 0.19365403}
+      - {x: 1.4614707, y: 0.57770824}
+      - {x: 1.3180765, y: 0.92443424}
+      - {x: 1.0750659, y: 1.2558857}
+      - {x: 0.74528307, y: 1.5153658}
+      - {x: 0.35511744, y: 1.6757919}
+      - {x: -0.010178145, y: 1.7142223}
+      - {x: -0.43115243, y: 1.6688713}
+      - {x: -0.8814961, y: 1.446288}
+      - {x: -1.2231483, y: 1.1334676}
+      - {x: -1.4641083, y: 0.67244494}
+      - {x: -1.5361681, y: 0.20251827}
+      - {x: -1.4749691, y: -0.20669188}
+      - {x: -1.3978392, y: -0.5964652}
+      - {x: -1.5271226, y: -1.0966891}
+      - {x: -1.5219815, y: -1.3309436}
+      - {x: -1.402925, y: -1.5481122}
+      - {x: -1.1740559, y: -1.6969812}
+      - {x: -0.84085, y: -1.6969812}
+      - {x: -0.51488817, y: -1.5199718}
+      - {x: -0.12405632, y: -1.7069812}
+      - {x: 0.16405632, y: -1.7039624}
+      - {x: 0.507216, y: -1.5284643}
+--- !u!114 &114085213882703304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189419091467970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e46397592a9e449a8b06e5492af7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114383217315533718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189419091467970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0eeb9122e9b054e92abc17130fd5af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  body: {fileID: 0}
+  force: 100
+  numAdjacentPoints: 6
+  rotateSpeed: 10
+  adjacentDropoff: 4
+  rotate: 1
+  coneAngle: 90
+  pullBackDistance: 0
+  maxPullBack: 3.3
+  adjacentPointsIgnoreCollision: 1
+  requireGrounded: 1
+  numAirJumps: 1
+--- !u!114 &114467360851665694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1301860129102128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38594d69549cb487e990218bf8676ac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Iterations: 5
+  showVelocities: 0
+  showPointMassPositions: 0
+  showBaseShape: 0
+  showXformedBaseShape: 0
+  showSprings: 0
+  showPressureNormals: 0
+  showShapeMatching: 0
+  defaultPhysicsMaterial: {fileID: 0}
+  PenetrationThreshold: 0.5
+  TangentPenetrationThreshold: 0.05
+  sleepVelocity: 0.001
+  sleepAngularVelocity: 0.01
+  wakeVelocity: 1
+  wakeAngularVelocity: 0.1
+  sleepCntRequired: 200
+  mtvModifierGlobal: 0.001
+  colliderTrackingCleanupFrequency: 20
+--- !u!114 &114567173483837698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189419091467970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eb493e9941ef4d019ea501444d0f364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CalculateNormals: 0
+  CalculateTangents: 0
+  meshLinkType: 1
+  canModifyPivotPoint: 1
+  body: {fileID: 114824987748530434}
+  pivotOffset: {x: 0, y: 0}
+  offset: {x: -0, y: -0}
+  scale: {x: 1, y: 1}
+  angle: 0
+  vertices:
+  - {x: 0.8978313, y: -1.7069812, z: 0}
+  - {x: 1.1740562, y: -1.6939625, z: 0}
+  - {x: 1.4053037, y: -1.5551435, z: 0}
+  - {x: 1.5189625, y: -1.340188, z: 0}
+  - {x: 1.5219815, y: -1.043019, z: 0}
+  - {x: 1.3890841, y: -0.61132497, z: 0}
+  - {x: 1.495, y: 0.19365403, z: 0}
+  - {x: 1.4614707, y: 0.57770824, z: 0}
+  - {x: 1.3180765, y: 0.92443424, z: 0}
+  - {x: 1.0750659, y: 1.2558857, z: 0}
+  - {x: 0.74528307, y: 1.5153658, z: 0}
+  - {x: 0.35511744, y: 1.6757919, z: 0}
+  - {x: -0.010178145, y: 1.7142223, z: 0}
+  - {x: -0.43115243, y: 1.6688713, z: 0}
+  - {x: -0.8814961, y: 1.446288, z: 0}
+  - {x: -1.2231483, y: 1.1334676, z: 0}
+  - {x: -1.4641083, y: 0.67244494, z: 0}
+  - {x: -1.5361681, y: 0.20251827, z: 0}
+  - {x: -1.4749691, y: -0.20669188, z: 0}
+  - {x: -1.3978392, y: -0.5964652, z: 0}
+  - {x: -1.5271226, y: -1.0966891, z: 0}
+  - {x: -1.5219815, y: -1.3309436, z: 0}
+  - {x: -1.402925, y: -1.5481122, z: 0}
+  - {x: -1.1740559, y: -1.6969812, z: 0}
+  - {x: -0.84085, y: -1.6969812, z: 0}
+  - {x: -0.51488817, y: -1.5199718, z: 0}
+  - {x: -0.12405632, y: -1.7069812, z: 0}
+  - {x: 0.16405632, y: -1.7039624, z: 0}
+  - {x: 0.507216, y: -1.5284643, z: 0}
+  - {x: -0.5719539, y: -0.6283431, z: 0}
+  - {x: 0.54606324, y: -0.6535616, z: 0}
+  - {x: 0.008070171, y: -0.014695168, z: 0}
+  - {x: -0.017148554, y: 0.90157413, z: 0}
+  - {x: -0.9250118, y: 0.37198734, z: 0}
+  - {x: 0.9411517, y: 0.3551755, z: 0}
+  mMeshFilter: {fileID: 33765949379620394}
+  mMeshRenderer: {fileID: 23126919502953250}
+  mSortingOrder: 0
+  mSortingLayer: 0
+  sprites:
+  - {fileID: 21300000, guid: a41d11e9420954209aa6d30cf1bebf94, type: 3}
+  texture: {fileID: 2800000, guid: a41d11e9420954209aa6d30cf1bebf94, type: 3}
+  selectedSprite: 0
+--- !u!114 &114824987748530434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1189419091467970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2af8dc5db6d54d40b8f416ede0d7f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myTransform: {fileID: 4722905015998672}
+  mBaseShape:
+    mEdgeVertices:
+    - {x: 0.8978313, y: -1.7069812}
+    - {x: 1.1740562, y: -1.6939625}
+    - {x: 1.4053037, y: -1.5551435}
+    - {x: 1.5189625, y: -1.340188}
+    - {x: 1.5219815, y: -1.043019}
+    - {x: 1.3890841, y: -0.61132497}
+    - {x: 1.495, y: 0.19365403}
+    - {x: 1.4614707, y: 0.57770824}
+    - {x: 1.3180765, y: 0.92443424}
+    - {x: 1.0750659, y: 1.2558857}
+    - {x: 0.74528307, y: 1.5153658}
+    - {x: 0.35511744, y: 1.6757919}
+    - {x: -0.010178145, y: 1.7142223}
+    - {x: -0.43115243, y: 1.6688713}
+    - {x: -0.8814961, y: 1.446288}
+    - {x: -1.2231483, y: 1.1334676}
+    - {x: -1.4641083, y: 0.67244494}
+    - {x: -1.5361681, y: 0.20251827}
+    - {x: -1.4749691, y: -0.20669188}
+    - {x: -1.3978392, y: -0.5964652}
+    - {x: -1.5271226, y: -1.0966891}
+    - {x: -1.5219815, y: -1.3309436}
+    - {x: -1.402925, y: -1.5481122}
+    - {x: -1.1740559, y: -1.6969812}
+    - {x: -0.84085, y: -1.6969812}
+    - {x: -0.51488817, y: -1.5199718}
+    - {x: -0.12405632, y: -1.7069812}
+    - {x: 0.16405632, y: -1.7039624}
+    - {x: 0.507216, y: -1.5284643}
+    mInternalVertices:
+    - {x: -0.5719539, y: -0.6283431}
+    - {x: 0.54606324, y: -0.6535616}
+    - {x: 0.008070171, y: -0.014695168}
+    - {x: -0.017148554, y: 0.90157413}
+    - {x: -0.9250118, y: 0.37198734}
+    - {x: 0.9411517, y: 0.3551755}
+    mCenter: {x: -0.017118458, y: -0.33111072}
+    mTriangles: 2100000011000000100000002100000012000000110000001d000000120000002100000013000000120000001d00000018000000130000001d00000014000000130000001800000017000000140000001800000014000000170000001600000015000000140000001600000019000000180000001d0000001a000000190000001d0000001d0000001e0000001a0000001e0000001d0000001f000000220000001e0000001f000000050000001e0000002200000005000000040000001e000000030000001e000000040000001e0000000300000000000000000000001c0000001e0000001b0000001e0000001c0000001a0000001e0000001b00000000000000030000000100000003000000020000000100000006000000050000002200000006000000220000000700000007000000220000000800000008000000220000000900000009000000220000002000000009000000200000000a000000200000000b0000000a000000200000000c0000000b0000000d0000000c00000020000000200000000e0000000d000000210000000e00000020000000210000000f0000000e00000021000000100000000f0000001f00000021000000200000001f0000001d00000021000000220000001f00000020000000
+    winding: 1
+  mEdgePointMasses:
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.6184988, y: 2.6796324}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.7522793, y: 2.6786714}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.8676348, y: 2.7396626}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.92818356, y: 2.8405204}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.9374418, y: 2.9839983}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.884572, y: 3.1960301}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.95686626, y: 3.582121}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.9507494, y: 3.7685308}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.8905792, y: 3.9397917}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.78188515, y: 4.106288}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.6293831, y: 4.2402945}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.44511223, y: 4.3280344}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.26965332, y: 4.3561873}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.06509781, y: 4.3453283}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.15829754, y: 4.249623}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.3315544, y: 4.1074724}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.4600582, y: 3.8910854}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.5072031, y: 3.6659636}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.48838043, y: 3.466675}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.46135044, y: 3.2763581}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.53693485, y: 3.0381021}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.5405998, y: 2.9248033}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.48878574, y: 2.8167682}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.38213062, y: 2.7388449}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.2211647, y: 2.7300992}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.059052467, y: 2.8070536}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.124842644, y: 2.7064543}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.2641039, y: 2.7003503}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.43448448, y: 2.7761233}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  mInternalPointMasses:
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.06321716, y: 3.2392812}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.47621536, y: 3.1977534}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.2330885, y: 3.5204992}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.24495602, y: 3.9637945}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: -0.20751667, y: 3.7317896}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  - mMass: 1
+    mInverseMass: 1
+    mPosition: {x: 0.693552, y: 3.6746862}
+    force: {x: 0, y: 0}
+    externalForce: {x: 0, y: 0}
+    persistantForce: {x: 0, y: 0}
+    velocity: {x: 0, y: 0}
+    shapeMatchingMultiplier: 1
+    forceInternal: 1
+    body: {fileID: 114824987748530434}
+  mIsStatic: 0
+  mIsKinematic: 0
+  mIsTrigger: 0
+  mIsAwake: 1
+  mMass: 1
+  mInverseMass: 1
+  pivotOffset: {x: -0.017118458, y: -0.33111072}
+  mAttachPoints:
+  - affectedIndices: 2100000022000000
+    transformAngle: -0.00012207031
+    body: {fileID: 114824987748530434}
+    transform: {fileID: 4722905015998672}
+    point: {x: -0.5427492, y: 0.36854362}
+    rotate: 1
+    scalars:
+    - 0.79516125
+    - 0.20483874
+    mAttachedTransform: {fileID: 4714002148311034}
+  - affectedIndices: 2100000022000000
+    transformAngle: 359.99988
+    body: {fileID: 114824987748530434}
+    transform: {fileID: 4722905015998672}
+    point: {x: 0.59240264, y: 0.3583173}
+    rotate: 1
+    scalars:
+    - 0.18688023
+    - 0.81311977
+    mAttachedTransform: {fileID: 4801935687895380}
+  mJoints: []
+  polyCollider: {fileID: 60944340087504280}
+  affectedByGravity: 1
+  velocity: {x: 0, y: 0}
+  angularVelocity: 0
+  sleepCount: 0
+  gravity: {x: 0, y: -9.81}
+  overrideWorldGravity: 0
+  disabled: 0
+  meshLink: {fileID: 114567173483837698}
+  mtvModifier: 0
+  mEdgeSprings:
+  - pointMassA: 0
+    pointMassB: 1
+    length: 0.27653146
+    scaledLength: 0.13378443
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 1
+    pointMassB: 2
+    length: 0.26971492
+    scaledLength: 0.13048662
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 2
+    pointMassB: 3
+    length: 0.24315462
+    scaledLength: 0.11763689
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 3
+    pointMassB: 4
+    length: 0.29718432
+    scaledLength: 0.14377616
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 4
+    pointMassB: 5
+    length: 0.4516874
+    scaledLength: 0.21852389
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 5
+    pointMassB: 6
+    length: 0.81191707
+    scaledLength: 0.39280108
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 6
+    pointMassB: 7
+    length: 0.38551506
+    scaledLength: 0.1865101
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 7
+    pointMassB: 8
+    length: 0.3752077
+    scaledLength: 0.18152344
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 8
+    pointMassB: 9
+    length: 0.4109918
+    scaledLength: 0.19883561
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 9
+    pointMassB: 10
+    length: 0.41962677
+    scaledLength: 0.20301318
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 10
+    pointMassB: 11
+    length: 0.42185986
+    scaledLength: 0.20409352
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 11
+    pointMassB: 12
+    length: 0.36731154
+    scaledLength: 0.17770334
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 12
+    pointMassB: 13
+    length: 0.42341003
+    scaledLength: 0.20484349
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 13
+    pointMassB: 14
+    length: 0.50234723
+    scaledLength: 0.24303287
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 14
+    pointMassB: 15
+    length: 0.46323094
+    scaledLength: 0.2241086
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 15
+    pointMassB: 16
+    length: 0.5201957
+    scaledLength: 0.25166786
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 16
+    pointMassB: 17
+    length: 0.47541946
+    scaledLength: 0.23000537
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 17
+    pointMassB: 18
+    length: 0.4137611
+    scaledLength: 0.20017537
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 18
+    pointMassB: 19
+    length: 0.39733142
+    scaledLength: 0.1922268
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 19
+    pointMassB: 20
+    length: 0.51666063
+    scaledLength: 0.24995759
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 20
+    pointMassB: 21
+    length: 0.2343109
+    scaledLength: 0.11335829
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 21
+    pointMassB: 22
+    length: 0.24766234
+    scaledLength: 0.1198177
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 22
+    pointMassB: 23
+    length: 0.27302572
+    scaledLength: 0.13208836
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 23
+    pointMassB: 24
+    length: 0.33320594
+    scaledLength: 0.16120324
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 24
+    pointMassB: 25
+    length: 0.3709224
+    scaledLength: 0.17945026
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 25
+    pointMassB: 26
+    length: 0.433269
+    scaledLength: 0.20961319
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 26
+    pointMassB: 27
+    length: 0.28812847
+    scaledLength: 0.13939498
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 27
+    pointMassB: 28
+    length: 0.38543242
+    scaledLength: 0.18647015
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  - pointMassA: 28
+    pointMassB: 0
+    length: 0.4294748
+    scaledLength: 0.2077776
+    lengthMultiplier: 1
+    stiffness: 600
+    damping: 80
+  mInternalSprings:
+  - pointMassA: 33
+    pointMassB: 17
+    length: 0.63421744
+    scaledLength: 0.30683094
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 16
+    pointMassB: 33
+    length: 0.6171709
+    scaledLength: 0.29858392
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 33
+    pointMassB: 18
+    length: 0.7983249
+    scaledLength: 0.38622525
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 29
+    pointMassB: 18
+    length: 0.9966074
+    scaledLength: 0.48215333
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 33
+    pointMassB: 29
+    length: 1.0608068
+    scaledLength: 0.51321256
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 29
+    pointMassB: 19
+    length: 0.8265003
+    scaledLength: 0.3998564
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 24
+    pointMassB: 19
+    length: 1.2334393
+    scaledLength: 0.5967313
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 29
+    pointMassB: 24
+    length: 1.1019495
+    scaledLength: 0.5331172
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 24
+    pointMassB: 20
+    length: 0.9117679
+    scaledLength: 0.44110838
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 23
+    pointMassB: 20
+    length: 0.6964242
+    scaledLength: 0.33692625
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 22
+    pointMassB: 20
+    length: 0.46819633
+    scaledLength: 0.22651087
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 29
+    pointMassB: 25
+    length: 0.893453
+    scaledLength: 0.43224773
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 29
+    pointMassB: 26
+    length: 1.167935
+    scaledLength: 0.56504065
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 29
+    pointMassB: 30
+    length: 1.1183016
+    scaledLength: 0.54102826
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 30
+    pointMassB: 26
+    length: 1.2485003
+    scaledLength: 0.60401773
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 29
+    pointMassB: 31
+    length: 0.84438837
+    scaledLength: 0.40851054
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 31
+    pointMassB: 30
+    length: 0.83521664
+    scaledLength: 0.4040733
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 34
+    pointMassB: 30
+    length: 1.0833491
+    scaledLength: 0.5241185
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 31
+    pointMassB: 34
+    length: 1.0037159
+    scaledLength: 0.48559228
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 5
+    pointMassB: 30
+    length: 0.84407824
+    scaledLength: 0.4083605
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 34
+    pointMassB: 5
+    length: 1.0652542
+    scaledLength: 0.5153642
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 4
+    pointMassB: 30
+    length: 1.0507586
+    scaledLength: 0.5083513
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 3
+    pointMassB: 30
+    length: 1.1907934
+    scaledLength: 0.57609946
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 3
+    pointMassB: 0
+    length: 0.7213468
+    scaledLength: 0.34898368
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 0
+    pointMassB: 30
+    length: 1.1106006
+    scaledLength: 0.53730255
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 28
+    pointMassB: 30
+    length: 0.8757647
+    scaledLength: 0.42369026
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 27
+    pointMassB: 30
+    length: 1.1177081
+    scaledLength: 0.5407411
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 3
+    pointMassB: 1
+    length: 0.4940817
+    scaledLength: 0.23903406
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 34
+    pointMassB: 6
+    length: 0.5769204
+    scaledLength: 0.27911094
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 34
+    pointMassB: 7
+    length: 0.5659088
+    scaledLength: 0.27378362
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 34
+    pointMassB: 8
+    length: 0.68273556
+    scaledLength: 0.3303038
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 34
+    pointMassB: 9
+    length: 0.91061074
+    scaledLength: 0.44054857
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 34
+    pointMassB: 32
+    length: 1.1031277
+    scaledLength: 0.53368723
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 32
+    pointMassB: 9
+    length: 1.148246
+    scaledLength: 0.5555152
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 32
+    pointMassB: 10
+    length: 0.9787963
+    scaledLength: 0.47353637
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 32
+    pointMassB: 11
+    length: 0.85906637
+    scaledLength: 0.41561165
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 32
+    pointMassB: 12
+    length: 0.81267804
+    scaledLength: 0.3931692
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 32
+    pointMassB: 13
+    length: 0.8718624
+    scaledLength: 0.42180234
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 32
+    pointMassB: 14
+    length: 1.0216701
+    scaledLength: 0.4942785
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 33
+    pointMassB: 14
+    length: 1.0751816
+    scaledLength: 0.5201671
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 32
+    pointMassB: 33
+    length: 1.0510366
+    scaledLength: 0.50848585
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 33
+    pointMassB: 15
+    length: 0.81776375
+    scaledLength: 0.39562967
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 31
+    pointMassB: 33
+    length: 1.0100323
+    scaledLength: 0.4886482
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  - pointMassA: 32
+    pointMassB: 31
+    length: 0.91661626
+    scaledLength: 0.44345403
+    lengthMultiplier: 1
+    stiffness: 100
+    damping: 10
+  mCustomSprings: []
+  mShapeMatchingOn: 1
+  mDefaultEdgeSpringK: 600
+  mDefaultEdgeSpringDamp: 80
+  mShapeSpringK: 600
+  mShapeSpringDamp: 20
+  mDefaultCustomSpringK: 200
+  mDefaultCustomSpringDamp: 40
+  mDefaultInternalSpringK: 100
+  mDefaultInternalSpringDamp: 10
+--- !u!212 &212267730461573696
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1895534048335106}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 473699b21db044907ab74c2d287bfef8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!212 &212539718450986956
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1747004343909004}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 473699b21db044907ab74c2d287bfef8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
